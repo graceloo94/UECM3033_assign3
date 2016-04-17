@@ -15,7 +15,7 @@ The reports, codes and supporting documents are to be uploaded to Github at:
 **Explain how you implement your `task1.py` here.**
 
 To perform Gauss-Legendre quadrature, we need to confirm that the integral over [a,b] is [-1,1]. Then we use Lagrange Polynomial to transform the interval to [-1,1] by using the codes: 
- *y=((b-a)/2)*X+((b+a)/2)*
+ y=((b-a)/2)*X+((b+a)/2)
 
 We obtain the weights and nodes of the Gauss-Legendre quadrature using Leggauss from the module numpy.polynomial.legendre.
 The codes are: 
@@ -23,8 +23,8 @@ The codes are:
 
 We can then obtain the answer by multiplying the Jacobian of the transformation which is (b-a)/2 with the summation of the weights and f(y).
 The code is as follow:
-*WF=sum(W*f(y))* and 
-*ans=((b-a)/2)*WF*
+WF=sum(W*f(y)) and 
+ans=((b-a)/2)*WF
 
 **Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.**
 
