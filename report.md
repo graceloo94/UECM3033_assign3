@@ -48,17 +48,21 @@ I used the odeint module in python to solve the ODE system. The code is as follo
 **Put your graphs here and explain.**
 
 ![Graph_of_y0_and_y1_(1).png](Graph_of_y0_and_y1_(1).png)
+
 This is the graph of Prey y0 and Predator y1 against Year t, where the initial condition is y0 = 0.1, y1 = 1.0. 
 
 
 ![Graph_of_y1_against_y0_(1).png](Graph_of_y1_against_y0_(1).png)
+
 This is the graph of Predator y1 against Prey y0, where the initial condition is y0 = 0.1, y1 = 1.0.
 
 ![Graph_of_y0_and_y1_(2).png](Graph_of_y0_and_y1_(2).png)
+
 This is the graph of Prey y0 and Predator y1 against Year t, where the initial condition is y0 = 0.11, y1 = 1.0
 
 
 ![Graph_of_y1_against_y0_(2).png](Graph_of_y1_against_y0_(2).png)
+
 This is the graph of Predator y1 against Prey y0, where the initial condition is y0 = 0.11, y1 = 1.0
 
 **Is the system of ODE sensitive to initial condition? Explain.**
