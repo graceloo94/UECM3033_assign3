@@ -23,8 +23,8 @@ The codes are:
 
 We can then obtain the answer by multiplying the Jacobian of the transformation which is (b-a)/2 with the summation of the weights and f(y).
 The code is as follow:
-*WF=sum(W*f(y))
-ans=((b-a)/2)*WF*
+*WF=sum(W*f(y))* and 
+*ans=((b-a)/2)*WF*
 
 **Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.**
 
